@@ -74,7 +74,7 @@ The calculator application is built using the Swing API and follows this structu
       java SwingCalculator
 4. **Using an IDE**:
     Import the project into your preferred IDE.
-    Run the *SwingCalculator.java* file directly.
+    Run the `SwingCalculator.java` file directly.
 
 ## Challenges and Solutions
  **Challenges**:
@@ -87,14 +87,16 @@ The calculator application is built using the Swing API and follows this structu
 
 **Solutions**:
   Input and operator logic were carefully implemented to avoid errors.
-  Division-by-zero scenarios can be handled by displaying an error message in the *JTextField*.
+  Division-by-zero scenarios can be handled by displaying an error message in the `JTextField`.
 
 ## About Java Swing
 Java Swing is a part of the Java Foundation Classes (JFC) and is used to build platform-independent, customizable GUI applications. Unlike AWT (Abstract Window Toolkit), Swing components are lightweight and rendered entirely in Java, which makes them flexible and consistent across different operating systems.
 
 ## Why Swing for this Project?
 **Ease of Use**: Swing simplifies the creation of GUIs with its prebuilt components.
-**Flexibility**: Components like JButton and JTextField can be styled and customized.
+
+**Flexibility**: Components like `JButton` and `JTextField` can be styled and customized.
+
 **Cross-Platform**: Applications look and behave consistently across different operating systems.
 
 ## Conclusion
